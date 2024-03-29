@@ -25,6 +25,8 @@ app.use(
     origin: [
       "https://car-doctor-1eef5.web.app",
       "https://car-doctor-1eef5.firebaseapp.com",
+      "http://localhost:5173",
+      "http://localhost:5174"
     ],
     methods: ["GET", "POST", "PATCH", "DELETE", "OPTIONS"],
     credentials: true,
